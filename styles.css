@@ -85,6 +85,7 @@ ul{
     flex: 1;
     justify-content: center;
     gap: 70px;
+    margin-bottom: 120px;
 }
 .center-imgs{
     height:200px;
@@ -143,4 +144,51 @@ body{
     margin-right: 35%;
     padding: 0;
     color: #1F2937;
+}
+
+.ad-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+.advertisement{
+    background-color: #3882F6;
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 60px;
+}
+.ad-text{
+    margin-left: 120px;
+    padding: 24px;
+}
+.ad-para{
+    margin: 0;
+}
+.ad-head{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 900;
+}
+.ad-button{
+    height: 36px;
+    width: 128px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    font-weight: 200;
+    margin-right: 120px;
+    border-style: solid;
+    border-width: 3px;
+}
+.footer{
+    background-color: #1F2937;
+    padding: 24px;
+    text-align: center;
 }
